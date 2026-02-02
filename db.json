@@ -48,6 +48,13 @@
       "password": "12",
       "confirmpassword": "12",
       "id": 7
+    },
+    {
+      "name": "sindhu",
+      "email": "sindhu@gmail.com",
+      "password": "12",
+      "confirmpassword": "12",
+      "id": 8
     }
   ],
   "products": [
@@ -104,7 +111,7 @@
       "brand": "JBL",
       "rating": 4.4,
       "stock": 12,
-      "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+      "image": "https://www.pngmart.com/files/6/Headphone-PNG-Transparent-Picture.png"
     },
     {
       "id": 6,
@@ -138,6 +145,94 @@
       "rating": 4.2,
       "stock": 40,
       "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+    },
+    {
+      "id": 9,
+      "title": "boAt Airdopes 219",
+      "description": "Shop boAt Airdopes 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://justswitch.com/wp-content/uploads/2023/06/SPR-SP631873-jet-black-back.png"
+    },
+    {
+      "id": 10,
+      "title": "JBL Tune 720BT Wireless",
+      "description": "Shop JBL Tune 720BT Wireless Over-Ear Headphones at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://www.pngarts.com/files/8/White-Airpod-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 11,
+      "title": "boAt Airdopes 219",
+      "description": "Shop boAt Airdopes 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://i.pinimg.com/736x/11/f7/99/11f799e0609d2af58efa21f3df1e34ad.jpg"
+    },
+    {
+      "id": 12,
+      "title": "boAt 219",
+      "description": "Shop boAt 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://pngimg.com/uploads/headphones/headphones_PNG7647.png"
+    },
+    {
+      "id": 13,
+      "title": "boAt 219",
+      "description": "Shop boAt 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://www.kindpng.com/picc/m/83-839966_headphone…t-studio-headphone-headphones-hd-png-download.png"
+    },
+    {
+      "id": 13,
+      "title": "boAt 219",
+      "description": "Shop boAt 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://www.pngarts.com/files/9/Wireless-Headphones-PNG-Photo.png"
+    },
+    {
+      "id": 14,
+      "title": "boAt 219",
+      "description": "Shop boAt 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://www.freeiconspng.com/uploads/headphones-png-1.png"
+    },
+    {
+      "id": 15,
+      "title": "boAt 219",
+      "description": "Shop boAt 219 Wireless airdopes at Urban Outfitters today.",
+      "price": 5999,
+      "category": "electronics",
+      "brand": "Boat",
+      "rating": 4.2,
+      "stock": 40,
+      "image": "https://wallpapers.com/images/hd/red-over-ear-headphones-afq5enhjr48sppy6-2.png"
     }
   ],
   "orders": [
@@ -333,45 +428,476 @@
       "status": "placed",
       "createdAt": "2026-01-30T07:48:41.744Z",
       "id": 7
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 3,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 2,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        },
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 2,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        }
+      ],
+      "totalAmount": 35492,
+      "createdAt": "2026-01-30T08:22:53.707Z",
+      "status": "placed",
+      "id": 8
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 5,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 29995,
+      "createdAt": "2026-01-30T08:23:08.871Z",
+      "status": "placed",
+      "id": 9
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        }
+      ],
+      "totalAmount": 7998,
+      "createdAt": "2026-01-30T08:26:38.407Z",
+      "status": "placed",
+      "id": 10
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        }
+      ],
+      "totalAmount": 7998,
+      "createdAt": "2026-01-30T08:26:40.595Z",
+      "status": "placed",
+      "id": 11
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 10998,
+      "createdAt": "2026-01-30T08:27:20.588Z",
+      "status": "placed",
+      "id": 12
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 5999,
+      "createdAt": "2026-01-30T08:30:23.096Z",
+      "status": "placed",
+      "id": 13
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 5,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 32494,
+      "createdAt": "2026-01-30T08:32:48.935Z",
+      "status": "placed",
+      "id": 14
+    },
+    {
+      "userId": "7",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 5,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 32494,
+      "createdAt": "2026-01-30T08:32:54.518Z",
+      "status": "placed",
+      "id": 15
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 32,
+          "image": "https://i.pinimg.com/736x/67/98/13/679813956d1c533cf4358f3ca9271b47.jpg"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 3,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        },
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 12,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 8,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 265452,
+      "createdAt": "2026-01-30T08:33:08.460Z",
+      "status": "placed",
+      "id": 16
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        },
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 5,
+          "title": "JBL Live 670NC",
+          "price": 5499,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 6,
+          "title": "JBL E55BT ",
+          "price": 9799,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        },
+        {
+          "productId": 7,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 8,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 46292,
+      "createdAt": "2026-01-30T08:34:18.089Z",
+      "status": "placed",
+      "id": 17
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        },
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 5,
+          "title": "JBL Live 670NC",
+          "price": 5499,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 6,
+          "title": "JBL E55BT ",
+          "price": 9799,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        },
+        {
+          "productId": 7,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 8,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 46292,
+      "createdAt": "2026-01-30T08:34:18.960Z",
+      "status": "placed",
+      "id": 18
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        }
+      ],
+      "totalAmount": 7998,
+      "createdAt": "2026-01-30T08:35:10.159Z",
+      "status": "placed",
+      "id": 19
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 5999,
+      "createdAt": "2026-01-30T08:35:39.693Z",
+      "status": "placed",
+      "id": 20
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 5999,
+      "createdAt": "2026-01-30T08:36:10.388Z",
+      "status": "placed",
+      "id": 21
+    },
+    {
+      "userId": "4",
+      "accountDetails": {
+        "name": "sd",
+        "phone": "09539275436",
+        "address": "qqq"
+      },
+      "items": [],
+      "totalAmount": 0,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-01-31T10:32:49.067Z",
+      "id": 22
+    },
+    {
+      "userId": "4",
+      "accountDetails": {
+        "name": "sd",
+        "phone": "09539275436",
+        "address": "sd"
+      },
+      "items": [],
+      "totalAmount": 0,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-01-31T10:33:27.291Z",
+      "id": 23
+    },
+    {
+      "userId": "4",
+      "accountDetails": {
+        "name": "vcb",
+        "phone": "9539275734",
+        "address": "nmb"
+      },
+      "items": [],
+      "totalAmount": 0,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-01-31T10:35:15.131Z",
+      "id": 24
+    },
+    {
+      "userId": "4",
+      "accountDetails": {
+        "name": "vcb",
+        "phone": "9539275734",
+        "address": "werg"
+      },
+      "items": [],
+      "totalAmount": 0,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-01-31T10:35:41.495Z",
+      "id": 25
+    },
+    {
+      "userId": "8",
+      "accountDetails": {
+        "name": "vcb",
+        "phone": "9539275734",
+        "address": " m"
+      },
+      "items": [],
+      "totalAmount": 0,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "placed",
+      "createdAt": "2026-01-31T14:50:03.914Z",
+      "id": 26
     }
   ],
   "cart": [
-    {
-      "userId": "4",
-      "productId": 3,
-      "title": "JBL Tune 720BT Wireless",
-      "price": 5999,
-      "image": "https://i.pinimg.com/736x/67/98/13/679813956d1c533cf4358f3ca9271b47.jpg",
-      "quantity": 32,
-      "id": 4
-    },
-    {
-      "userId": "4",
-      "productId": 4,
-      "title": "Bose QuietComfort",
-      "price": 2499,
-      "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png",
-      "quantity": 3,
-      "id": 6
-    },
-    {
-      "userId": "4",
-      "productId": 2,
-      "title": "Sony wh1000xm4",
-      "price": 4999,
-      "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png",
-      "quantity": 12,
-      "id": 7
-    },
-    {
-      "userId": "4",
-      "productId": 8,
-      "title": "JBL Tune 720BT Wireless",
-      "price": 5999,
-      "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp",
-      "quantity": 1,
-      "id": 8
-    },
     {
       "userId": "1",
       "productId": 2,
@@ -382,34 +908,44 @@
       "id": 9
     },
     {
-      "userId": "7",
+      "userId": "8",
+      "productId": 5,
+      "title": "JBL Live 670NC",
+      "price": 5499,
+      "image": "https://www.pngmart.com/files/6/Headphone-PNG-Transparent-Picture.png",
+      "description": "Headphones with Adaptive Noise Cancelling with Smart Ambient, Up to 65H Battery Life with Speed Charge, Lightweight.",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "userId": "8",
+      "productId": 6,
+      "title": "JBL E55BT ",
+      "price": 9799,
+      "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png",
+      "description": "Wireless Over-Ear Headphones with True Adaptive Noise Cancelling with Smart Ambient, Up to 65 Hours of Battery Life",
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "userId": "8",
       "productId": 2,
       "title": "Sony wh1000xm4",
       "price": 4999,
       "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png",
       "description": "The new popular best headphones in the market",
-      "quantity": 3,
-      "id": 10
-    },
-    {
-      "userId": "7",
-      "productId": 3,
-      "title": "JBL Tune 720BT Wireless",
-      "price": 5999,
-      "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp",
-      "description": "Shop JBL Tune 720BT Wireless Over-Ear Headphones at Urban Outfitters today.",
-      "quantity": 2,
-      "id": 11
-    },
-    {
-      "userId": "7",
-      "productId": 4,
-      "title": "Bose QuietComfort",
-      "price": 2499,
-      "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png",
-      "description": "Bluetooth Headphones, Wireless Headphones, Over Ear Noise Cancelling Headphones with Mic, Up To 24 Hours of Battery Life",
       "quantity": 1,
       "id": 12
+    },
+    {
+      "userId": "8",
+      "productId": 1,
+      "title": "Wireless Bluetooth Headphones",
+      "price": 2999,
+      "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png",
+      "description": "Over-ear Bluetooth headphones with active noise cancellation and 30 hours battery life.",
+      "quantity": 1,
+      "id": 13
     }
   ],
   "wishlist": [
@@ -478,22 +1014,6 @@
       "id": 8
     },
     {
-      "userId": "4",
-      "productId": 3,
-      "product": {
-        "id": 3,
-        "title": "JBL Tune 720BT Wireless",
-        "description": "Shop JBL Tune 720BT Wireless Over-Ear Headphones at Urban Outfitters today.",
-        "price": 5999,
-        "category": "electronics",
-        "brand": "JBL",
-        "rating": 4.2,
-        "stock": 40,
-        "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
-      },
-      "id": 9
-    },
-    {
       "userId": "7",
       "productId": 3,
       "product": {
@@ -540,6 +1060,1277 @@
         "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
       },
       "id": 13
+    },
+    {
+      "userId": "4",
+      "productId": 5,
+      "product": {
+        "id": 5,
+        "title": "JBL Live 670NC",
+        "description": "Headphones with Adaptive Noise Cancelling with Smart Ambient, Up to 65H Battery Life with Speed Charge, Lightweight.",
+        "price": 5499,
+        "category": "electronics",
+        "brand": "JBL",
+        "rating": 4.4,
+        "stock": 12,
+        "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+      },
+      "id": 18
+    },
+    {
+      "userId": "4",
+      "productId": 11,
+      "product": {
+        "id": 11,
+        "title": "boAt Airdopes 219",
+        "description": "Shop boAt Airdopes 219 Wireless airdopes at Urban Outfitters today.",
+        "price": 5999,
+        "category": "electronics",
+        "brand": "Boat",
+        "rating": 4.2,
+        "stock": 40,
+        "image": "https://i.pinimg.com/736x/11/f7/99/11f799e0609d2af58efa21f3df1e34ad.jpg"
+      },
+      "id": 21
+    },
+    {
+      "userId": "4",
+      "productId": 3,
+      "product": {
+        "id": 3,
+        "title": "JBL Tune 720BT Wireless",
+        "description": "Shop JBL Tune 720BT Wireless Over-Ear Headphones at Urban Outfitters today.",
+        "price": 5999,
+        "category": "electronics",
+        "brand": "JBL",
+        "rating": 4.2,
+        "stock": 40,
+        "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+      },
+      "id": 23
+    },
+    {
+      "userId": "4",
+      "productId": 4,
+      "product": {
+        "id": 4,
+        "title": "Bose QuietComfort",
+        "description": "Bluetooth Headphones, Wireless Headphones, Over Ear Noise Cancelling Headphones with Mic, Up To 24 Hours of Battery Life",
+        "price": 2499,
+        "category": "electronics",
+        "brand": "Bose",
+        "rating": 4.6,
+        "stock": 10,
+        "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+      },
+      "id": 24
+    },
+    {
+      "userId": "4",
+      "productId": 2,
+      "product": {
+        "id": 2,
+        "title": "Sony wh1000xm4",
+        "description": "The new popular best headphones in the market",
+        "price": 4999,
+        "category": "electronics",
+        "brand": "SONY",
+        "rating": 4.8,
+        "stock": 8,
+        "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+      },
+      "id": 25
+    },
+    {
+      "userId": "8",
+      "productId": 3,
+      "product": {
+        "id": 3,
+        "title": "JBL Tune 720BT Wireless",
+        "description": "Shop JBL Tune 720BT Wireless Over-Ear Headphones at Urban Outfitters today.",
+        "price": 5999,
+        "category": "electronics",
+        "brand": "JBL",
+        "rating": 4.2,
+        "stock": 40,
+        "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+      },
+      "id": 27
+    },
+    {
+      "userId": "8",
+      "productId": 1,
+      "product": {
+        "id": 1,
+        "title": "Wireless Bluetooth Headphones",
+        "description": "Over-ear Bluetooth headphones with active noise cancellation and 30 hours battery life.",
+        "price": 2999,
+        "category": "electronics",
+        "brand": "SoundMax",
+        "rating": 4.5,
+        "stock": 25,
+        "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+      },
+      "id": 28
+    }
+  ],
+  "order": [
+    {
+      "userId": "1",
+      "accountDetails": {
+        "name": "John",
+        "phone": "9876543210",
+        "address": "Kochi, Kerala"
+      },
+      "totalAmount": 2999,
+      "paymentMethod": "cod",
+      "paymentStatus": "pending",
+      "status": "placed"
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 6,
+          "title": "JBL E55BT ",
+          "price": 9799,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 9799,
+      "createdAt": "2026-01-30T08:46:42.707Z",
+      "status": "placed",
+      "id": 1
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 6,
+          "title": "JBL E55BT ",
+          "price": 9799,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 14798,
+      "createdAt": "2026-01-30T08:47:39.236Z",
+      "status": "placed",
+      "id": 2
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 6,
+          "title": "JBL E55BT ",
+          "price": 9799,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 14798,
+      "createdAt": "2026-01-30T08:47:46.017Z",
+      "status": "placed",
+      "id": 3
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        }
+      ],
+      "totalAmount": 4999,
+      "createdAt": "2026-01-30T08:48:05.786Z",
+      "status": "placed",
+      "id": 4
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 7,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        }
+      ],
+      "totalAmount": 5999,
+      "createdAt": "2026-01-30T08:48:29.079Z",
+      "status": "placed",
+      "id": 5
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 6,
+          "title": "JBL E55BT ",
+          "price": 9799,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 9799,
+      "createdAt": "2026-01-30T08:48:44.826Z",
+      "status": "placed",
+      "id": 6
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 3,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        }
+      ],
+      "totalAmount": 8997,
+      "createdAt": "2026-01-30T08:49:33.517Z",
+      "status": "placed",
+      "id": 7
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 2499,
+      "createdAt": "2026-01-30T08:50:02.013Z",
+      "status": "placed",
+      "id": 8
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 8498,
+      "createdAt": "2026-01-30T09:06:50.099Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "Lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "ghfddassaDFGH",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 9
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:03.799Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthy",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 10
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:04.884Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthy",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 11
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:17.395Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 12
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:18.517Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 13
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:18.850Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 14
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:19.006Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 15
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:19.170Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 16
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:19.336Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 17
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:19.550Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 18
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:25.425Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 19
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:25.568Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 20
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:25.726Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 21
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 7498,
+      "createdAt": "2026-01-30T09:16:26.116Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "lak",
+        "phone": "09539275436",
+        "email": "lakshmistla17@gmal.com",
+        "address": "frgthyderfty67u",
+        "city": "HGFD",
+        "state": "HGF",
+        "pincode": "542"
+      },
+      "id": 22
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:35.145Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 23
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:37.134Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 24
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:38.282Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 25
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:41.047Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 26
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:41.549Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 27
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:41.766Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 28
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Wireless Bluetooth Headphones",
+          "price": 2999,
+          "quantity": 1,
+          "image": "https://png.pngtree.com/png-vector/20250321/ourmid/pngtree-wireless-headphone-png-image_15830312.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 5498,
+      "createdAt": "2026-01-30T09:18:48.287Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "sadfdfg",
+        "phone": "09539275736",
+        "email": "lakshmistlaw17@gmal.com",
+        "address": "werr4g",
+        "city": "HGFDe",
+        "state": "HGFw",
+        "pincode": "542w"
+      },
+      "id": 29
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 12497,
+      "createdAt": "2026-01-30T09:21:11.371Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "09539275736",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "qwdefr",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 30
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 12497,
+      "createdAt": "2026-01-30T09:21:25.560Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "09539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "qwdefra",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 31
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 12497,
+      "createdAt": "2026-01-30T09:21:33.184Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "qwdefra",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 32
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 12497,
+      "createdAt": "2026-01-30T09:21:43.031Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "qwdefra sdfgh rth",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 33
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 2,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 4,
+          "title": "Bose QuietComfort",
+          "price": 2499,
+          "quantity": 1,
+          "image": "https://i.pinimg.com/originals/78/72/45/78724592d143707a049bf3b341a0b50a.png"
+        }
+      ],
+      "totalAmount": 12497,
+      "createdAt": "2026-01-30T09:21:43.787Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "qwdefra sdfgh rth",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 34
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 10998,
+      "createdAt": "2026-01-30T09:22:05.356Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "s",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 35
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 10998,
+      "createdAt": "2026-01-30T09:22:06.294Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "s",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 36
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 1,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        },
+        {
+          "productId": 3,
+          "title": "JBL Tune 720BT Wireless",
+          "price": 5999,
+          "quantity": 1,
+          "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_7d3f6d43b83a58648e40b7253e9bf872.webp"
+        }
+      ],
+      "totalAmount": 10998,
+      "createdAt": "2026-01-30T09:22:38.374Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "s",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 37
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 16,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        }
+      ],
+      "totalAmount": 79984,
+      "createdAt": "2026-01-31T07:53:02.110Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "shaafy",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "gkgygygk",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 38
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 11,
+          "title": "boAt Airdopes 219",
+          "price": 5999,
+          "quantity": 3,
+          "image": "https://i.pinimg.com/736x/11/f7/99/11f799e0609d2af58efa21f3df1e34ad.jpg"
+        }
+      ],
+      "totalAmount": 17997,
+      "createdAt": "2026-01-31T08:36:18.102Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "vcb",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": "xcv",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 39
+    },
+    {
+      "userId": "4",
+      "items": [
+        {
+          "productId": 2,
+          "title": "Sony wh1000xm4",
+          "price": 4999,
+          "quantity": 3,
+          "image": "https://www.pngall.com/wp-content/uploads/4/Wireless-Headphone-Background-PNG-Image.png"
+        }
+      ],
+      "totalAmount": 14997,
+      "createdAt": "2026-01-31T10:06:21.127Z",
+      "status": "placed",
+      "shipping": {
+        "fullName": "vcb",
+        "phone": "9539275734",
+        "email": "lakshmijstlaw17@gmal.com",
+        "address": " nb",
+        "city": "HGFDeww",
+        "state": "HGFww",
+        "pincode": "542ww"
+      },
+      "id": 40
     }
   ]
 }
